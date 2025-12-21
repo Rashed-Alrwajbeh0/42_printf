@@ -6,7 +6,7 @@
 /*   By: ralrawaj <ralrawaj@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 10:19:37 by ralrawaj          #+#    #+#             */
-/*   Updated: 2025/12/01 10:19:39 by ralrawaj         ###   ########.fr       */
+/*   Updated: 2025/12/21 15:35:22 by ralrawaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,10 @@ int	ft_strncmp(const char *str1, const char *str2, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		if (ptr1[i] < ptr2[i])
-			return (-1);
-		if (ptr1[i] > ptr2[i])
-			return (1);
-		if (!ptr1[i] && !ptr2[i])
-			break ;
+		if (ptr1[i] != ptr2[i])
+			return (ptr1[i] - ptr2[i]);
+		if (ptr1[i] == '\0')
+			return (0);
 		i++;
 	}
 	return (0);

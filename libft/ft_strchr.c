@@ -6,7 +6,7 @@
 /*   By: ralrawaj <ralrawaj@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/29 15:57:07 by ralrawaj          #+#    #+#             */
-/*   Updated: 2025/11/29 16:15:55 by ralrawaj         ###   ########.fr       */
+/*   Updated: 2025/12/21 18:44:23 by ralrawaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,20 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int		i;
-	char	*str;
+	unsigned char	ch;
+	char			*str;
+	int				i;
 
-	i = -1;
+	ch = (unsigned char)c;
 	str = (char *)s;
-	while (str[++i])
-		if (str[i] == c)
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] == ch)
 			return (str + i);
-	if (!str[i] && !c)
+		i++;
+	}
+	if (str[i] == ch)
 		return (str + i);
 	return (NULL);
 }

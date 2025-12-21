@@ -2,7 +2,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "libft.h"
+# include "libft/libft.h"
 
 void	print_char(char c);
 int		determine_the_var(char c, va_list list);

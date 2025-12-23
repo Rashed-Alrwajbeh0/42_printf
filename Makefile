@@ -30,4 +30,4 @@ fclean :
 	rm -f $(O_FILES) $(NAME)
 	make -C $(LIBFT_DIR) fclean
 re : fclean all
-.PHONY : clean fclean all
+.PHONY : clean fclean all re

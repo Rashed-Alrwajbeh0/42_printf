@@ -6,7 +6,7 @@
 /*   By: ralrawaj <ralrawaj@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 15:00:44 by ralrawaj          #+#    #+#             */
-/*   Updated: 2025/12/15 17:50:38 by ralrawaj         ###   ########.fr       */
+/*   Updated: 2025/12/21 18:42:23 by ralrawaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h> 
 # include <stddef.h>
 # include <limits.h>
 

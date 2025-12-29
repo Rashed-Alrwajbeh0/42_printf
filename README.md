@@ -36,6 +36,7 @@ The conversions that ft_printf uses:
 ## Resources
 
 I used some websites such as Google, Stack Overflow, and GeeksforGeeks.
+
 I also used the manual pages and asked some friends.
 
 ## Algorithm

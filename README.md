@@ -21,7 +21,7 @@ The conversions that ft_printf uses:
 
 ``%%`` prints a percent sign.
 
-“For unsupported conversion specifiers, the implementation prints the  %  character followed by the unknown specifier as literals, without applying flags/width/precision.”
+```For unsupported conversion specifiers, the implementation prints the  %  character followed by the unknown specifier as literals, without applying flags/width/precision.```
 
 ## Instructions
 
@@ -52,5 +52,3 @@ Each helper function prints its value and returns the number of characters writt
 The total number of printed characters is accumulated and returned at the end
 of the function, matching the behavior of the standard `printf`.
 
-The implementation relies on the `write` system call and functions from the
-`libft` library, without using forbidden functions.

@@ -3,8 +3,9 @@
 ## Description
 
 ft_printf function mimics the printf function.
-ft_printf uses the libft library.<br>
+
 The conversions that ft_printf uses:  
+
 ``%c`` prints a single character.
 
 ``%s`` prints a string.

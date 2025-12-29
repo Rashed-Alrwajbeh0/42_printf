@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_unsigned_int.c                               :+:      :+:    :+:   */
+/*   determinr_the_var.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ralrawaj <ralrawaj@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/21 13:12:27 by ralrawaj          #+#    #+#             */
-/*   Updated: 2025/12/21 13:12:29 by ralrawaj         ###   ########.fr       */
+/*   Created: 2025/12/21 13:10:33 by ralrawaj          #+#    #+#             */
+/*   Updated: 2025/12/21 13:10:34 by ralrawaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int	print_and_count( unsigned int n)
+static int	print_and_count(unsigned int n)
 {
 	int	counter;
 

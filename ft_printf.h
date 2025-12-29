@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   determinr_the_var.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ralrawaj <ralrawaj@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/21 13:10:52 by ralrawaj          #+#    #+#             */
-/*   Updated: 2025/12/21 13:10:53 by ralrawaj         ###   ########.fr       */
+/*   Created: 2025/12/21 13:10:33 by ralrawaj          #+#    #+#             */
+/*   Updated: 2025/12/21 13:10:34 by ralrawaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,13 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "libft/libft.h"
+# include <unistd.h>
 
 void	print_char(char c);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
+int		ft_strlen(const char *str);
 int		determine_the_var(char c, va_list list);
 int		print_hexa_lowercase(unsigned long num);
 int		print_pointer(void *ptr);

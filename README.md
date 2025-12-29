@@ -21,7 +21,7 @@ The conversions that ft_printf uses:
 
 ``%%`` prints a percent sign.
 
-```For unsupported conversion specifiers, the implementation prints the  %  character followed by the unknown specifier as literals, without applying flags/width/precision.```
+```For unsupported conversion specifiers, the implementation prints the  %  character followed by the unknown specifier as literals.```
 
 ## Instructions
 
